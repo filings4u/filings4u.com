@@ -257,6 +257,19 @@ body.public-form-page{
 .security-row{display:flex;gap:10px;align-items:flex-start;color:#64748b;font-size:.79rem}
 .security-row strong{color:#334155}
 
+
+.form-submit-row{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:16px;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:20px 24px;
+  box-shadow:0 8px 28px rgba(10,31,68,.055);
+}
+
 .form-submit{
   appearance:none;
   border:0;
@@ -293,6 +306,7 @@ body.public-form-page{
   .form-shell{width:min(100%,calc(100% - 20px));margin-top:20px}
   .choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .form-actions{align-items:stretch;padding:18px}
+  .form-submit-row{padding:18px}
   .form-submit{width:100%}
 }
 

@@ -1,0 +1,38 @@
+FILINGS4U SEO / SEARCH ENGINE SUBMISSION
+
+Production domain:
+https://filings4u.com
+
+Created:
+- robots.txt
+- sitemap.xml
+- feed.xml
+- canonical tags across public pages
+- Open Graph and Twitter metadata
+- Organization / WebSite / WebPage / Service structured data
+- five static, crawlable blog article pages with BlogPosting schema
+- noindex rules for intake forms, applications, checkout, 404, and duplicate index copy
+- crawlable links from Blog and Knowledge Center to current static blog articles
+
+Submit this sitemap:
+https://filings4u.com/sitemap.xml
+
+GOOGLE SEARCH CONSOLE
+1. Add a Domain property for filings4u.com.
+2. Complete DNS verification using the TXT record Google provides.
+3. Open Sitemaps and submit: sitemap.xml
+4. Use URL Inspection on the home page and a few important service/blog pages after deployment.
+
+BING WEBMASTER TOOLS
+1. Add filings4u.com (or import the verified Google Search Console property).
+2. Complete site verification if required.
+3. Submit: https://filings4u.com/sitemap.xml
+
+IMPORTANT
+- Do not add a fake Google or Bing verification token to the HTML. Use the exact token provided by the search engine.
+- Deploy the files before submitting the sitemap.
+- Confirm these URLs return HTTP 200 in production:
+  https://filings4u.com/robots.txt
+  https://filings4u.com/sitemap.xml
+  https://filings4u.com/blog.html
+- Search engines decide indexing and ranking; sitemap submission makes URLs discoverable but does not guarantee ranking.
